@@ -1,0 +1,50 @@
+* {
+	margin: 12px;
+}
+
+body {
+	border: 1px solid black;
+	background-color: grey;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	word-spacing: 50px;
+}
+
+nav a {
+	color: #ffffff;
+	font-size: 17px;
+}
+
+section {
+	font-family: monospace;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 20px solid black;
+	border-radius: 100px;
+	background-color: lightgrey;
+}
+
+.two {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: 7px;
+}
+
+footer {
+	font-family: fantasy;
+	word-spacing: 3px;
+}
+
+button {
+	cursor: pointer;
+}
